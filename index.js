@@ -5,7 +5,7 @@ const app = express();
 app.get("/", function (req, res) {
   res.send(`
     <h1>Bem-vindo ao meu site!</h1>
-    <p>Projeto de Desenvolvimento de Software em Nuvem - Gabriel Bitencourt</p>
+    <p>Projeto de Desenvolvimento de Software em Nuvem / Gabriel Bitencourt</p>
     <a href="/sobre">Sobre</a> | <a href="/produtos">Produtos</a>
   `);
 });
